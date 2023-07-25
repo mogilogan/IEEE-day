@@ -10,6 +10,10 @@ module.exports = {
       xl: '1270px',
     },
     extend: {
+      fontFamily: {
+        'rampart-one': ['Rampart One', 'sans-serif'],
+        'graduate': ['Graduate'],
+      },
       boxShadow:  {
         'light-neumorphism-2xl': '-12px -12px 24px rgba(255, 255, 255, 1), 12px 12px 24px rgba(206, 212, 219, 1)',
         'light-neumorphism-xl': '-9px -9px 18px rgba(255, 255, 255, 1), 9px 9px 18px rgba(200, 207, 216, 0.9)',
@@ -32,9 +36,7 @@ module.exports = {
           secondary_hover: '#E350A9',
           tertiary: '#68C9BA',
         },
-        fontFamily: {
-          'poppins': ['Poppins', 'sans-serif']
-        },
+        
       },
       backgroundImage: {
         hero: "url('../src/assets/img/hero_bg.png')",

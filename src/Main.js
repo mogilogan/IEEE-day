@@ -14,6 +14,7 @@ const Main = () => {
         array.map((item,i)=>{
             document.getElementById(item).classList.remove("md:max-w-[500px]","max-w-[260px]");
         document.getElementById(item).classList.add("md:max-w-[300px]","max-w-[150px]");
+        document.getElementById("hsc").classList.remove("md:h-screen");
         })
 
 
@@ -34,14 +35,14 @@ const Main = () => {
   
      
         <div class="md:grid md:grid-cols-10 md:grid-flow-col gap-0">
-             <div class="max-w-[200px] md:block hidden bg-teal-500 md:h-screen font-mono  text-center text-[70px]"><img src={ieeedaylogo} width={150} className='mx-auto'/>I<br/>E<br/>E<br/>E<br/>&nbps D<br/>A<br/>Y</div>
+             <div id='hsc' class="max-w-[200px] md:block hidden bg-teal-500 md:h-screen font-graduate text-center text-[70px]"><img src={ieeedaylogo} width={150} className='mx-auto py-4'/>I<br/>E<br/>E<br/>E<br/>D<br/>A<br/>Y</div>
              <div class=" md:hidden block bg-teal-500 text-center text-[70px]">IEEE DAY</div>
              <div class="md:col-span-9 row-end-2 text-center  bg-blue-300 ">
 
-                    <p className='text-xl md:text-[70px] py-6'>EVENT'S REGISTRATION</p>
+                    <p className='text-xl md:text-[70px] font-rampart-one py-12'>EVENT'S REGISTRATION</p>
 
 
-                    <div className='grid grid-cols-1 md:grid-cols-4 gap-6 py-10 place-items-center '>
+                    <div className='grid grid-cols-1 md:grid-cols-4 gap-6 justify-center items-center md:py-[140px] place-items-center '>
 
 
                        <div id="0" onClick={()=>detailopen(0,"0")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg">
