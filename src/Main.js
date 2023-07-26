@@ -20,17 +20,21 @@ const Main = () => {
         isOpen.fill(false);
         
         array.map((item,i)=>{
-            document.getElementById(item).classList.remove("md:max-w-[500px]","max-w-[260px]");
-        document.getElementById(item).classList.add("md:max-w-[300px]","max-w-[150px]");
+            document.getElementById(item).classList.remove("md:max-w-[300px]","max-w-[260px]");
+        document.getElementById(item).classList.add("md:max-w-[350px]","max-w-[150px]");
         document.getElementById("hsc").classList.remove("md:h-screen");
         })
 
-        document.getElementById(dis).classList.remove("md:max-w-[300px]","max-w-[150px]");
-        document.getElementById(dis).classList.add("md:max-w-[500px]","max-w-[260px]");
+        document.getElementById(dis).classList.remove("md:max-w-[350px]","max-w-[150px]");
+        document.getElementById(dis).classList.add("md:max-w-[300px]","max-w-[260px]");
 
         setIsOpen(prevState => prevState.map((item,idx)=>idx ===num ?  !item : item))
         
     }
+
+    // const close = ()=>{
+    //   setIsOpen(prevState => prevState.map((item,idx)=>false))
+    // }
 
 
   return (
@@ -38,9 +42,9 @@ const Main = () => {
   
      
         <div class="md:grid md:grid-cols-10 md:grid-flow-col gap-0">
-             <div id='hsc' class="max-w-[200px] md:block hidden bg-teal-500 md:h-screen font-graduate text-center text-[70px]"><img src={ieeedaylogo} width={150} className='mx-auto py-4'/>I<br/>E<br/>E<br/>E<br/>D<br/>A<br/>Y</div>
+             <div id='hsc' class="max-w-[200px] md:block hidden bg-teal-500  font-graduate text-center text-[70px]"><img src={ieeedaylogo} width={150} className='mx-auto py-4'/>I<br/>E<br/>E<br/>E<br/>D<br/>A<br/>Y</div>
              <div class=" md:hidden block bg-teal-500 text-center text-[70px]">IEEE DAY</div>
-             <div class="md:col-span-9 row-end-2 text-center  bg-blue-300 ">
+             <div class="md:col-span-9 row-end-2 text-center  bg-[#6cb3c1] ">
 
                     <p className='text-xl md:text-[70px] font-rampart-one py-12'>EVENT'S REGISTRATION</p>
 
@@ -48,7 +52,7 @@ const Main = () => {
                     <div className='grid grid-cols-1 md:grid-cols-4 gap-6 justify-center items-center md:py-[140px] place-items-center '>
 
 
-                      <div id="0" onClick={()=>detailopen(0,"0")} className="max-w-[150px] md:max-w-[300px]  rounded overflow-hidden shadow-lg bg-slate-400">
+                      <div id="0" onClick={()=>detailopen(0,"0")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden  ">
                            <img class="w-[80%] mx-auto" src={photo} alt="Sunset in the mountains"/>
                            <div class=" py-4">
                            <div class="font-bold text-xl ">Photographer Contest</div>
@@ -70,7 +74,7 @@ const Main = () => {
                             </div>
                       </div>
 
-                      <div id="1" onClick={()=>detailopen(1,"1")} className="max-w-[150px]  md:max-w-[300px] rounded overflow-hidden shadow-lg bg-slate-400">
+                      <div id="1" onClick={()=>detailopen(1,"1")} className="max-w-[150px]  md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[80%] mx-auto" src={panel} alt="Sunset in the mountains"/>
                            <div class=" py-4">
                            <div class="font-bold text-xl ">Panel Discussion</div>
@@ -92,7 +96,7 @@ const Main = () => {
                             </div>
                       </div>
 
-                      <div id="2" onClick={()=>detailopen(2,"2")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg bg-slate-400">
+                      <div id="2" onClick={()=>detailopen(2,"2")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-full mx-auto py-2" src={conn} alt="Sunset in the mountains"/>
                            <div class=" py-4">
                            <div class="font-bold text-xl ">Technical Connexion</div>
@@ -114,7 +118,7 @@ const Main = () => {
                             </div>
                       </div>
 
-                      <div id="3" onClick={()=>detailopen(3,"3")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg bg-slate-400">
+                      <div id="3" onClick={()=>detailopen(3,"3")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[80%] mx-auto py-2" src={code} alt="Sunset in the mountains"/>
                            <div class=" py-4">
                            <div class="font-bold text-xl ">Coding Competition</div>
@@ -137,7 +141,7 @@ const Main = () => {
                             </div>
                       </div>
 
-                      <div id="4" onClick={()=>detailopen(4,"4")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg bg-slate-400">
+                      <div id="4" onClick={()=>detailopen(4,"4")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[80%] mx-auto py-2" src={trea} alt="Sunset in the mountains"/>
                            <div class=" py-4">
                            <div class="font-bold text-xl ">Treasure Hunt</div>
@@ -161,7 +165,7 @@ const Main = () => {
                             </div>
                       </div>
 
-                      <div id="5" onClick={()=>detailopen(5,"5")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg bg-slate-400">
+                      <div id="5" onClick={()=>detailopen(5,"5")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[80%] mx-auto py-2" src={tdes} alt="Sunset in the mountains"/>
                            <div class=" py-4">
                            <div class="font-bold text-xl ">3D Design</div>
@@ -184,7 +188,7 @@ const Main = () => {
                             </div>
                       </div>
 
-                      <div id="6" onClick={()=>detailopen(6,"6")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg bg-slate-400">
+                      <div id="6" onClick={()=>detailopen(6,"6")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[85%] mx-auto py-2" src={deli} alt="Sunset in the mountains"/>
                            <div class=" py-4">
                            <div class="font-bold text-xl ">Delicate designs</div>
@@ -207,7 +211,7 @@ const Main = () => {
                             </div>
                       </div>
 
-                      <div id="7" onClick={()=>detailopen(7,"7")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg bg-slate-400">
+                      <div id="7" onClick={()=>detailopen(7,"7")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[80%] mx-auto py-2" src={short} alt="Sunset in the mountains"/>
                            <div class=" py-4">
                            <div class="font-bold text-xl ">Short Film</div>
