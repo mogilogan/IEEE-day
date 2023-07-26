@@ -8,6 +8,8 @@ import conn from './assests/conn.png';
 import code from './assests/code.png';
 import trea from './assests/trea.png';
 import tdes from './assests/tdes.png';
+import deli from './assests/deli.png';
+import short from './assests/short.png';
 
 const Main = () => {
 
@@ -46,7 +48,7 @@ const Main = () => {
                     <div className='grid grid-cols-1 md:grid-cols-4 gap-6 justify-center items-center md:py-[140px] place-items-center '>
 
 
-                      <div id="0" onClick={()=>detailopen(0,"0")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg bg-slate-400">
+                      <div id="0" onClick={()=>detailopen(0,"0")} className="max-w-[150px] md:max-w-[300px]  rounded overflow-hidden shadow-lg bg-slate-400">
                            <img class="w-[80%] mx-auto" src={photo} alt="Sunset in the mountains"/>
                            <div class=" py-4">
                            <div class="font-bold text-xl ">Photographer Contest</div>
@@ -74,7 +76,7 @@ const Main = () => {
                            <div class="font-bold text-xl ">Panel Discussion</div>
                               {isOpen[1] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Topic: *** <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 21 august And ends on ***</span><br/>Registration fee- Rs.50/</div>
+                                  <div class=" text-center font-bold text-teal-800">Topic: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 21 august, Venue: ECE Seminar Hall </span><br/>Registration fee- Rs.**/</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>A pannel must consist 4 to 6 people.</li>
                                     <li className='leading-5 py-1'>Team members should decide a moderator among themselves.</li>
@@ -84,7 +86,7 @@ const Main = () => {
                                     <li className='leading-5 py-1'>The top-scoring team will be awarded. Every participant will receive a participation certificate. </li>
                                     <li className='leading-5 py-1'>Final Event day : Oct 4, 5</li>
                                   </ul>  
-                                   <div className='text-center'>Coordinators Contact : <br/>SREE HARSHITHA-9493188149,<br/> KRISHNA TEJA-9652224274<br/><div className='pt-2'><button onClick={()=>window.open("")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
+                                   <div className='text-center'>Coordinators Contact : <br/>SREE HARSHITHA-9493188149,<br/> KRISHNA TEJA-9652224274<br/><div className='pt-2'><button onClick={()=>window.open("https://forms.gle/Ccrk6X2ZqAN7zUok6")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
                                    </div>
                               }
                             </div>
@@ -106,7 +108,7 @@ const Main = () => {
                                     <li className='leading-5 py-1 font-semibold'>Decision of the jury would be final.</li>
                                     <li className='leading-5 py-1'>Final Event day : Oct 4, 5</li>
                                   </ul>  
-                                   <div className='text-center'>Coordinators Contact : <br/>Seevaranjinee S-8148068869<br/> <div className='pt-2'><button onClick={()=>window.open("https://forms.gle/NVcXhPpEw8zKWeqj7")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
+                                   <div className='text-center'>Coordinators Contact : <br/>Seevaranjinee S-8148068869<br/> <div className='pt-2'><button onClick={()=>window.open("https://forms.gle/PXBVLWDktH5JNX3n8")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
                                    </div>
                               }
                             </div>
@@ -118,7 +120,7 @@ const Main = () => {
                            <div class="font-bold text-xl ">Coding Competition</div>
                               {isOpen[3] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 18.07.23 And ends on 18.07.23</span><br/>Registration fee- FREE</div>
+                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 18.07.23 </span><br/>Registration fee- **</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Code your brains out.</li>
                                     <li className='leading-5 py-1'>Partcipants can participate individually or in groups of maximum "2". Every participant will receive a participant certificate.</li>
@@ -141,7 +143,7 @@ const Main = () => {
                            <div class="font-bold text-xl ">Treasure Hunt</div>
                               {isOpen[4] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 18.07.23 And ends on 18.07.23</span><br/>Registration fee- **</div>
+                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 18.07.23 And ends on 18.07.23</span><br/>Registration fee- 100/Head</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Each team consist of three member in which one will be CODER, Second person will be solving APTITUDE and the third person will be the HUNTER.</li>
                                     <li className='leading-5 py-1'>Partcipants can participate individually or in groups of maximum "2". Every participant will receive a participant certificate.</li>
@@ -153,8 +155,7 @@ const Main = () => {
                                     <li className='leading-5 py-1 font-semibold'>Decision of the jury would be final.</li>
                                     <li className='leading-5 py-1'>Final Event day : Oct 4, 5</li>
                                   </ul>  
-                                   <div className='text-center'>Coordinators Contact : <br/>Nappinnai-7708162426, Danaprasad-9487046805,Gnanavendane-9443670650,Ragavi K-8610099669
-<br/> <div className='pt-2'><button className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
+                                   <div className='text-center'>Coordinators Contact : <br/>Nappinnai-7708162426, Danaprasad-9487046805,Gnanavendane-9443670650,Ragavi K-8610099669<br/> <div className='pt-2'><button onClick={()=>window.open("https://docs.google.com/forms/d/e/1FAIpQLSevFdUB_5h5x9gIuJ_lwKFpEEZrjoo5yh4ASyRmnC4e16alxQ/viewform")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
                                    </div>
                               }
                             </div>
@@ -177,50 +178,57 @@ const Main = () => {
                                     <li className='leading-5 py-1 font-semibold'>The top-scoring participant in Level 2 will be awarded the prizes. Participants who successfully complete Level 1 will receive participation certificates.</li>
                                     <li className='leading-5 py-1'>Final Event day : Oct 4, 5</li>
                                   </ul>  
-                                   <div className='text-center'>Coordinators Contact : <br/>Hemanth Kattoju-9381897926<br/> <div className='pt-2'><button onClick={()=>window.open("")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
+                                   <div className='text-center'>Coordinators Contact : <br/>Hemanth Kattoju-9381897926<br/> <div className='pt-2'><button onClick={()=>window.open("https://forms.gle/DJMSQoRnzPHSJUJi8")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
                                    </div>
                               }
                             </div>
                       </div>
 
                       <div id="6" onClick={()=>detailopen(6,"6")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg bg-slate-400">
-                           <img class="w-[80%] mx-auto py-2" src={code} alt="Sunset in the mountains"/>
+                           <img class="w-[85%] mx-auto py-2" src={deli} alt="Sunset in the mountains"/>
                            <div class=" py-4">
                            <div class="font-bold text-xl ">Delicate designs</div>
-                              {isOpen[3] &&
+                              {isOpen[6] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on ** And ends on **</span><br/>Registration fee- FREE</div>
+                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 11.08.23, VENUE: ECE SEMINAR HALL</span><br/>Registration fee- FREE</div>
                                   <ul className='list-outside list-decimal pl-4'>
-                                    <li className='leading-5 py-1'>Code your brains out.</li>
-                                    <li className='leading-5 py-1'>Partcipants can participate individually or in groups of maximum "2". Every participant will receive a participant certificate.</li>
-                                    <li className='leading-5 py-1'>3 rounds will be conducted with the best teams progressing to the subsequent rounds.</li>
-                                    <li className='leading-5 py-1'>Round-1: (Just-a-quiz)</li>
-                                    <li className='leading-5 py-1'>Round-2: (Problems with a little twist)</li>
-                                    <li className='leading-5 py-1'>Round-3: (The Finale) Teams showcase their programming skills for various challenges.</li>
-                                    <li className='leading-5 py-1 font-semibold'>The top 2 teams will be given awards. Decision of the jury would be final.</li>
+                                    <li className='leading-5 py-1'>Open to any student from any college.</li>
+                                    <li className='leading-5 py-1'>Focuses on the art of mandala, calligraphy and chalk carving.</li>
+                                    <li className='leading-5 py-1'>Each student is required to bring their own materials(brush pens, chalk etc) for the competition. </li>
+                                    <li className='leading-5 py-1'>The total time for the competition is 1.15 hours</li>
+                                    <li className='leading-5 py-1'>The jury will evaluate the artworks based on creativity and overall presentation</li>
+                                    <li className='leading-5 py-1'>Participation certificate will be awarded to each participants</li>
+                                    <li className='leading-5 py-1 font-semibold'>Decision of the jury would be final</li>
                                     <li className='leading-5 py-1'>Final Event day : Oct 4, 5</li>
                                   </ul>  
-                                   <div className='text-center'>Coordinators Contact : <br/>Nimal Vardhan M - 9600938404 Seshan S - 6385635310 Nivesh S - 9677747762<br/> <div className='pt-2'><button onClick={()=>window.open("https://docs.google.com/forms/d/e/1FAIpQLSf0-y8TMXg0lJrtQNxfHJv7e-ebe-Ot4wQwJGB7QodAguZ9gw/viewform?usp=sf_link")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
+                                   <div className='text-center'>Coordinators Contact : <br/>SIVAPRAGASH R (7397163264), YUVARANI VD, SHAANTHAPRIYAN B<br/> <div className='pt-2'><button onClick={()=>window.open("https://docs.google.com/forms/d/e/1FAIpQLScj9AZVaTTKoO3-nlVjoeJUDgzCVV42egj4j2eqpp0sNW6kig/viewform?usp=pp_url")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
                                    </div>
                               }
                             </div>
                       </div>
 
-                        <div id="7" onClick={()=>detailopen(7,"7")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg">
-                           <img class="w-full" src={photo} alt="Sunset in the mountains"/>
+                      <div id="7" onClick={()=>detailopen(7,"7")} className="max-w-[150px] md:max-w-[300px] rounded overflow-hidden shadow-lg bg-slate-400">
+                           <img class="w-[80%] mx-auto py-2" src={short} alt="Sunset in the mountains"/>
                            <div class=" py-4">
-                           <div class="font-bold text-xl ">Photographer Contest</div>
-                           {isOpen[7] &&
-                         <div className='text-left px-3'> 
-                              <p class="text-gray-700 text-center font-bold">Topic: Happiness <br/>Mode: ONLINE</p>
-                              <div class=" text-md ">Attach your photos in a pdf format in the given google form. You may attach as many photos of yours combined as a pdf. Plagiarism is strictly prohibited. Decision of the jury would be final. Event starts on 19.07.23 And ends on 10.08.23</div>
-                              <div class=" text-md ">Two best photographer awards will be given. Every participants will receive participant certificate The final event will be conducted on IEEE Day and two best photographs will be displayed( banner)(sponsorship) Date of presentation : Oct 4,5(IEEE Day) Registration fee- Rs.50/-</div>
-                              <div class=" text-md ">Coordinators: Contact : Sri Saipriya R 9443949018 Yuvarani 9493724523</div>
-
-                          </div>
-                           }
-                           </div>
-                        </div>
+                           <div class="font-bold text-xl ">Short Film</div>
+                              {isOpen[7] &&
+                                  <div className='text-left px-3'> 
+                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on **</span><br/>Registration fee- **</div>
+                                  <ul className='list-outside list-decimal pl-4'>
+                                    <li className='leading-5 py-1'>Open to any student from any college.</li>
+                                    <li className='leading-5 py-1'>The maximum duration of a short film is 3 minutes.</li>
+                                    <li className='leading-5 py-1'>The short films will be judged based on your understanding of the theme, screenplay, dialogue, creativity.</li>
+                                    <li className='leading-5 py-1'> The short film with obscenity and profanity will be disqualified </li>
+                                    <li className='leading-5 py-1'>The activity of plagiarism is strictly prohibited from participation</li>
+                                    <li className='leading-5 py-1'>Participation certificate will be awarded to each participants</li>
+                                    <li className='leading-5 py-1 font-semibold'>Decision of the jury would be final</li>
+                                    <li className='leading-5 py-1'>Final Event day : Oct 4, 5</li>
+                                  </ul>  
+                                   <div className='text-center'>Coordinators Contact : <br/>Jayaraj Pozhilan-9486901377<br/> <div className='pt-2'><button onClick={()=>window.open("https://docs.google.com/forms/d/e/1FAIpQLScnJhsvFo2G9bFLVmz--kkeSV8-n6ZIS7fkjwMJNsIR1U0D8g/viewform?usp=pp_url")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
+                                   </div>
+                              }
+                            </div>
+                      </div>
                         
                        
                     </div>
