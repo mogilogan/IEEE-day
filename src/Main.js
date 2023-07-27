@@ -85,7 +85,7 @@ const Main = () => {
                            
                               {isOpen[1] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Topic: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 21 august, Venue: ECE Seminar Hall </span><br/>Registration fee- Rs.**/</div>
+                                  <div class=" text-center font-bold text-teal-800">Topic: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 21 august, Venue: ECE Seminar Hall </span><br/>Registration fee- Rs.200/</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>A pannel must consist 4 to 6 people.</li>
                                     <li className='leading-5 py-1'>Team members should decide a moderator among themselves.</li>
@@ -108,7 +108,7 @@ const Main = () => {
                           
                               {isOpen[2] &&
                                   <div className='text-left px-3 transform transition-opacity duration-500 '> 
-                                  <div class=" text-center font-bold text-teal-800">Theme: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 19.07.23 And ends on 30.07.23</span><br/>Registration fee- FREE</div>
+                                  <div class=" text-center font-bold text-teal-800">Theme: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 13.08.23</span><br/>Registration fee- FREE</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Connect the common point to words or pictures provided.</li>
                                     <li className='leading-5 py-1'>Partcipants can participate individually or in groups of maximum "3". Every participant will receive a participant certificate.</li>
@@ -131,7 +131,7 @@ const Main = () => {
                            
                               {isOpen[3] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 18.07.23 </span><br/>Registration fee- **</div>
+                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 18.07.23 </span><br/>Registration fee- FREE</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Code your brains out.</li>
                                     <li className='leading-5 py-1'>Partcipants can participate individually or in groups of maximum "2". Every participant will receive a participant certificate.</li>
@@ -180,7 +180,7 @@ const Main = () => {
                          
                               {isOpen[5] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Theme: Importance of Studentship <br/>Mode: ONLINE <br/><span className='text-yellow-600'>Event starts on 18.07.23 And ends on 18.07.23</span><br/>Registration fee- **</div>
+                                  <div class=" text-center font-bold text-teal-800">Theme: Importance of Studentship <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 18.07.23 And ends on 18.07.23</span><br/>Registration fee- **</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Participants can use any 3D modeling software of their choice and should have the necessary software installed</li>
                                     <li className='leading-5 py-1'>Individual Event</li>
@@ -228,7 +228,7 @@ const Main = () => {
                            
                               {isOpen[7] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on **</span><br/>Registration fee- **</div>
+                                  <div class=" text-center font-bold text-teal-800">Mode: ONLINE <br/><span className='text-yellow-600'>Event starts on 10-08-2023</span><br/>Registration fee- 50</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Open to any student from any college.</li>
                                     <li className='leading-5 py-1'>The maximum duration of a short film is 3 minutes.</li>
@@ -239,7 +239,7 @@ const Main = () => {
                                     <li className='leading-5 py-1 font-semibold'>Decision of the jury would be final</li>
                                     <li className='leading-5 py-1'>Final Event day : Oct 4, 5</li>
                                   </ul>  
-                                   <div className='text-center'>Coordinators Contact : <br/>Jayaraj Pozhilan-9486901377<br/> <div className='pt-2'><button onClick={()=>window.open("https://docs.google.com/forms/d/e/1FAIpQLScnJhsvFo2G9bFLVmz--kkeSV8-n6ZIS7fkjwMJNsIR1U0D8g/viewform?usp=pp_url")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
+                                   <div className='text-center'>Coordinators Contact : <br/>Jayaraj Pozhilan-9486901377, R Saipriya-9443949018<br/> <div className='pt-2'><button onClick={()=>window.open("https://docs.google.com/forms/d/e/1FAIpQLScnJhsvFo2G9bFLVmz--kkeSV8-n6ZIS7fkjwMJNsIR1U0D8g/viewform?usp=pp_url")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
                                    </div>
                               }
                             </div>
