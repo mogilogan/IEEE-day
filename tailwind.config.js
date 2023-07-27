@@ -19,6 +19,7 @@ module.exports = {
         'light-neumorphism-xl': '-9px -9px 18px rgba(255, 255, 255, 1), 9px 9px 18px rgba(200, 207, 216, 0.9)',
         'light-neumorphism-l': '  16px 16px 42px rgba(138, 138, 138, 1),-16px -16px 42px rgba(255, 255, 255, 1)',
         'light-inner-neumorphism-xl': 'inset 9px 9px 18px rgba(83, 138, 149, 1), inset -9px -9px 18px rgba(133, 220, 237, 1)',
+        'light-innerr-neumorphism-xl': ' 20px 20px 60px rgba(83, 138, 149, 1),  -20px -20px 60px rgba(133, 220, 237, 1)',
         'yellow-inner-neumorphism-xl': ' inset 9px 9px 18px rgba(192, 147, 7, 1), inset  -9px -9px 18px rgba(255, 211, 9, 1)',
         'dark-neumorphism-2xl': '-12px -12px 24px rgba(46, 46, 46, 0.8), 12px 12px 24px rgba(11, 15, 26, 0.9)',
         'dark-neumorphism-xl': '-9px -9px 18px rgba(46, 46, 46, 0.4), 9px 9px 18px rgba(12, 15, 26, 0.6)',

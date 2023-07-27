@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Table from './Table';
 
 import ieeedaylogo from  './assests/ieeedaylogo.png';
 
@@ -48,14 +49,17 @@ const Main = () => {
 
                     <p className='text-xl md:text-[70px] font-rampart-one py-12'>EVENT'S REGISTRATION</p>
 
+                    <Table/>
 
-                    <div className='grid grid-cols-1 md:grid-cols-4 gap-6 justify-center items-center md:py-[140px] place-items-center '>
+
+                    <div className='grid grid-cols-1 md:grid-cols-4 gap-6 justify-center items-center md:py-[10px]  place-items-center '>
 
 
                       <div id="0" onClick={()=>detailopen(0,"0")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden  ">
                            <img class="w-[80%] mx-auto" src={photo} alt="Sunset in the mountains"/>
-                           <div class=" py-4">
                            <div class="font-bold text-xl ">Photographer Contest</div>
+                           <div class=" py-4" style={{opacity: isOpen[0] ? 1 : 0,maxHeight: isOpen[0] ? "1000px" : "0", overflow: "hidden",transition: "opacity 1s, max-height 1s",}}>
+                           
                               {isOpen[0] &&
                                   <div className='text-left px-3'> 
                                   <div class=" text-center font-bold text-teal-800">Topic: Happiness <br/>Mode: ONLINE <br/><span className='text-yellow-600'>Event starts on 19.07.23 And ends on 10.08.23</span><br/>Registration fee- Rs.50/</div>
@@ -76,8 +80,9 @@ const Main = () => {
 
                       <div id="1" onClick={()=>detailopen(1,"1")} className="max-w-[150px]  md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[80%] mx-auto" src={panel} alt="Sunset in the mountains"/>
-                           <div class=" py-4">
                            <div class="font-bold text-xl ">Panel Discussion</div>
+                           <div class=" py-4" style={{opacity: isOpen[1] ? 1 : 0,maxHeight: isOpen[1] ? "1000px" : "0", overflow: "hidden",transition: "opacity 1s, max-height 1s",}}>
+                           
                               {isOpen[1] &&
                                   <div className='text-left px-3'> 
                                   <div class=" text-center font-bold text-teal-800">Topic: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 21 august, Venue: ECE Seminar Hall </span><br/>Registration fee- Rs.**/</div>
@@ -98,10 +103,11 @@ const Main = () => {
 
                       <div id="2" onClick={()=>detailopen(2,"2")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-full mx-auto py-2" src={conn} alt="Sunset in the mountains"/>
-                           <div class=" py-4">
                            <div class="font-bold text-xl ">Technical Connexion</div>
+                           <div class=" py-4" style={{opacity: isOpen[2] ? 1 : 0,maxHeight: isOpen[2] ? "1000px" : "0", overflow: "hidden",transition: "opacity 1s, max-height 1s",}}>
+                          
                               {isOpen[2] &&
-                                  <div className='text-left px-3'> 
+                                  <div className='text-left px-3 transform transition-opacity duration-500 '> 
                                   <div class=" text-center font-bold text-teal-800">Theme: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 19.07.23 And ends on 30.07.23</span><br/>Registration fee- FREE</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Connect the common point to words or pictures provided.</li>
@@ -120,8 +126,9 @@ const Main = () => {
 
                       <div id="3" onClick={()=>detailopen(3,"3")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[80%] mx-auto py-2" src={code} alt="Sunset in the mountains"/>
-                           <div class=" py-4">
                            <div class="font-bold text-xl ">Coding Competition</div>
+                           <div class=" py-4" style={{opacity: isOpen[3] ? 1 : 0,maxHeight: isOpen[3] ? "1000px" : "0", overflow: "hidden",transition: "opacity 1s, max-height 1s",}}>
+                           
                               {isOpen[3] &&
                                   <div className='text-left px-3'> 
                                   <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 18.07.23 </span><br/>Registration fee- **</div>
@@ -143,8 +150,9 @@ const Main = () => {
 
                       <div id="4" onClick={()=>detailopen(4,"4")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[80%] mx-auto py-2" src={trea} alt="Sunset in the mountains"/>
-                           <div class=" py-4">
                            <div class="font-bold text-xl ">Treasure Hunt</div>
+                           <div class=" py-4" style={{opacity: isOpen[4] ? 1 : 0,maxHeight: isOpen[4] ? "1000px" : "0", overflow: "hidden",transition: "opacity 1s, max-height 1s",}}>
+                           
                               {isOpen[4] &&
                                   <div className='text-left px-3'> 
                                   <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 18.07.23 And ends on 18.07.23</span><br/>Registration fee- 100/Head</div>
@@ -167,8 +175,9 @@ const Main = () => {
 
                       <div id="5" onClick={()=>detailopen(5,"5")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[80%] mx-auto py-2" src={tdes} alt="Sunset in the mountains"/>
-                           <div class=" py-4">
                            <div class="font-bold text-xl ">3D Design</div>
+                           <div class=" py-4" style={{opacity: isOpen[5] ? 1 : 0,maxHeight: isOpen[5] ? "1500px" : "0", overflow: "hidden",transition: "opacity 1s, max-height 1s",}}>
+                         
                               {isOpen[5] &&
                                   <div className='text-left px-3'> 
                                   <div class=" text-center font-bold text-teal-800">Theme: Importance of Studentship <br/>Mode: ONLINE <br/><span className='text-yellow-600'>Event starts on 18.07.23 And ends on 18.07.23</span><br/>Registration fee- **</div>
@@ -190,8 +199,9 @@ const Main = () => {
 
                       <div id="6" onClick={()=>detailopen(6,"6")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[85%] mx-auto py-2" src={deli} alt="Sunset in the mountains"/>
-                           <div class=" py-4">
                            <div class="font-bold text-xl ">Delicate designs</div>
+                           <div class=" py-4" style={{opacity: isOpen[6] ? 1 : 0,maxHeight: isOpen[6] ? "1000px" : "0", overflow: "hidden",transition: "opacity 1s, max-height 1s",}}>
+                           
                               {isOpen[6] &&
                                   <div className='text-left px-3'> 
                                   <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 11.08.23, VENUE: ECE SEMINAR HALL</span><br/>Registration fee- FREE</div>
@@ -213,8 +223,9 @@ const Main = () => {
 
                       <div id="7" onClick={()=>detailopen(7,"7")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden ">
                            <img class="w-[80%] mx-auto py-2" src={short} alt="Sunset in the mountains"/>
-                           <div class=" py-4">
                            <div class="font-bold text-xl ">Short Film</div>
+                           <div class=" py-4" style={{opacity: isOpen[7] ? 1 : 0,maxHeight: isOpen[7] ? "1000px" : "0", overflow: "hidden",transition: "opacity 1s, max-height 1s",}}>
+                           
                               {isOpen[7] &&
                                   <div className='text-left px-3'> 
                                   <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on **</span><br/>Registration fee- **</div>
