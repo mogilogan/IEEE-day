@@ -42,19 +42,19 @@ const Main = () => {
     <div >
   
      
-        <div class="md:grid md:grid-cols-10 md:grid-flow-col gap-0">
-             <div id='hsc' class="max-w-[200px] md:block hidden bg-teal-500  font-graduate text-center text-[70px]"><img src={ieeedaylogo} width={150} className='mx-auto py-4'/>I<br/>E<br/>E<br/>E<br/>D<br/>A<br/>Y</div>
+        <div class="md:grid md:grid-cols-10 md:grid-flow-col gap-0 ">
+             <div id='hsc' class="max-w-[200px] md:block hidden bg-teal-500   font-graduate text-center text-[70px]"><img src={ieeedaylogo} width={150} className='mx-auto py-4'/>I<br/>E<br/>E<br/>E<br/>D<br/>A<br/>Y</div>
              <div class=" md:hidden block bg-teal-500 text-center text-[70px]">IEEE DAY</div>
              <div class="md:col-span-9 row-end-2 text-center  bg-[#6cb3c1] ">
              
              
-                   <p className='text-xl md:text-[90px] font-henny py-16 from-rose-200 from-40% to-yellow-100 text-transparent bg-gradient-to-r bg-clip-text'  >ZENORA</p>
-                   <p className='text-xl md:text-[70px] font-rampart-one py-12'>EVENT'S REGISTRATION</p>
+                   <p className='text-[50px] md:text-[90px] font-henny py-8 md:py-16 from-rose-200 from-40% to-yellow-100 text-transparent bg-gradient-to-r bg-clip-text'  >ZENORA</p>
+                   <p className='text-xl md:text-[70px] font-rampart-one py-4 md:py-12'>EVENT'S REGISTRATION</p>
 
                     <Table/>
 
 
-                    <div className='grid grid-cols-1 md:grid-cols-4 gap-6 justify-center items-center md:py-[10px]  place-items-center '>
+                    <div className='grid grid-cols-1 pb-8 md:pb-11 md:grid-cols-4 gap-6 justify-center items-center md:py-[10px]  place-items-center '>
 
 
                       <div id="0" onClick={()=>detailopen(0,"0")} className="max-w-[150px] md:max-w-[300px] shadow-light-inner-neumorphism-xl bg-[#6cb3c1] rounded-[20px] overflow-hidden  ">
