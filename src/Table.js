@@ -5,11 +5,11 @@ const Table = () => {
 
     const [tableData, setTableData] = useState([
         { id: 1, name: 'Photography contest', date: '26.07.23-10.08.23'},
-        { id: 2, name: 'Panel discussion', date: '22-08-23(may vary)' },
-        { id: 3, name: 'Technical Connexion', date: '26.08.23' },
+        { id: 2, name: 'Panel discussion', date: '21-08-23(tentative)' },
+        { id: 3, name: 'Technical Connexion', date: '29.08.23' },
         { id: 4, name: 'Coding Competition', date: '18.08.23' },
         { id: 5, name: 'Treasure Hunt', date: '23.08.23' },
-        { id: 6, name: '3D Design', date: '30.08.23' },
+        { id: 6, name: '3D Design', date: '26.08.23(tentative)' },
         { id: 7, name: 'Delicate Design', date: '28.08.23' },
         { id: 8, name: 'Short Film', date: '26.07.23- 10.08.23' },
         // Add more rows here...

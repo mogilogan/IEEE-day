@@ -46,8 +46,10 @@ const Main = () => {
              <div id='hsc' class="max-w-[200px] md:block hidden bg-teal-500  font-graduate text-center text-[70px]"><img src={ieeedaylogo} width={150} className='mx-auto py-4'/>I<br/>E<br/>E<br/>E<br/>D<br/>A<br/>Y</div>
              <div class=" md:hidden block bg-teal-500 text-center text-[70px]">IEEE DAY</div>
              <div class="md:col-span-9 row-end-2 text-center  bg-[#6cb3c1] ">
-
-                    <p className='text-xl md:text-[70px] font-rampart-one py-12'>EVENT'S REGISTRATION</p>
+             
+             
+                   <p className='text-xl md:text-[90px] font-henny py-16 from-rose-200 from-40% to-yellow-100 text-transparent bg-gradient-to-r bg-clip-text'  >ZENORA</p>
+                   <p className='text-xl md:text-[70px] font-rampart-one py-12'>EVENT'S REGISTRATION</p>
 
                     <Table/>
 
@@ -85,7 +87,7 @@ const Main = () => {
                            
                               {isOpen[1] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Topic: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 22 august(tentative), Venue: ECE Seminar Hall </span><br/>Registration fee- Rs.100/</div>
+                                  <div class=" text-center font-bold text-teal-800">Topic: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 21st august(tentative), Venue: ECE Seminar Hall </span><br/>Registration fee- Rs.100/</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>A pannel must consist 4 to 6 people.</li>
                                     <li className='leading-5 py-1'>Team members should decide a moderator among themselves.</li>
@@ -108,7 +110,7 @@ const Main = () => {
                           
                               {isOpen[2] &&
                                   <div className='text-left px-3 transform transition-opacity duration-500 '> 
-                                  <div class=" text-center font-bold text-teal-800">Theme: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 26.08.23</span><br/>Registration fee- FREE</div>
+                                  <div class=" text-center font-bold text-teal-800">Theme: Technology <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 29.08.23</span><br/>Registration fee- FREE</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Connect the common point to words or pictures provided.</li>
                                     <li className='leading-5 py-1'>Partcipants can participate individually or in groups of maximum "3". Every participant will receive a participant certificate.</li>
@@ -131,7 +133,7 @@ const Main = () => {
                            
                               {isOpen[3] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 18.07.23 </span><br/>Registration fee- ₹50/-</div>
+                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event on 18.07.23 </span><br/>Registration fee- FREE</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Code your brains out.</li>
                                     <li className='leading-5 py-1'>Partcipants can participate individually or in groups of maximum "2". Every participant will receive a participant certificate.</li>
@@ -179,7 +181,7 @@ const Main = () => {
                          
                               {isOpen[5] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Theme: Importance of Studentship <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 18.07.23 And ends on 18.07.23</span><br/>Registration fee- **</div>
+                                  <div class=" text-center font-bold text-teal-800">Theme: Importance of Studentship <br/>Mode: OFFLINE <br/><span className='text-yellow-600'>Event Registration ends on 10.08.23</span><br/>Registration fee- **</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Participants can use any 3D modeling software of their choice and should have the necessary software installed</li>
                                     <li className='leading-5 py-1'>Individual Event</li>
@@ -188,9 +190,9 @@ const Main = () => {
                                     <li className='leading-5 py-1'>Level 2 is the final round of the contest. In Level 2, participants will be presented with an innovative question or challenge related to 3D designing. The participants must create a 3D model that addresses the innovative question or challenge. The duration of Level 2 is also 90 minutes. The designs will be judged based on innovation, creativity, technical skill, and presentation.</li>
                                     <li className='leading-5 py-1 font-semibold'>The use of pre-existing models or copyrighted content is not allowed. All designs must be original.</li>
                                     <li className='leading-5 py-1 font-semibold'>The top-scoring participant in Level 2 will be awarded the prizes. Participants who successfully complete Level 1 will receive participation certificates.</li>
-                                    <li className='leading-5 py-1'>Final Event day : Oct 4, 5</li>
+                                    <li className='leading-5 py-1 font-bold'>After registration a whatsapp group will be created and all further info. will be shared there.</li>
                                   </ul>  
-                                   <div className='text-center'>Coordinators Contact : <br/>Hemanth Kattoju-9381897926<br/> <div className='pt-2'><button onClick={()=>window.open("https://forms.gle/DJMSQoRnzPHSJUJi8")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
+                                   <div className='text-center'>Coordinators Contact : <br/>Praveene R-8438778446<br/> <div className='pt-2'><button onClick={()=>window.open("https://forms.gle/DJMSQoRnzPHSJUJi8")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
                                    </div>
                               }
                             </div>
@@ -203,7 +205,7 @@ const Main = () => {
                            
                               {isOpen[6] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 11.08.23, VENUE: ECE SEMINAR HALL</span><br/>Registration fee- FREE</div>
+                                  <div class=" text-center font-bold text-teal-800">Mode: OFFLINE <br/><span className='text-yellow-600'>Event starts on 28.08.23, VENUE: ECE SEMINAR HALL</span><br/>Registration fee- FREE</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Open to any student from any college.</li>
                                     <li className='leading-5 py-1'>Focuses on the art of mandala, calligraphy and chalk carving.</li>
@@ -226,7 +228,7 @@ const Main = () => {
                            
                               {isOpen[7] &&
                                   <div className='text-left px-3'> 
-                                  <div class=" text-center font-bold text-teal-800">Mode: ONLINE <br/><span className='text-yellow-600'>Event ends on 10-08-2023</span><br/>Registration fee- 50</div>
+                                  <div class=" text-center font-bold text-teal-800">Topic: The importance of studentship<br/>Mode: ONLINE <br/><span className='text-yellow-600'>Event ends on 10-08-2023</span><br/>Registration fee- 50</div>
                                   <ul className='list-outside list-decimal pl-4'>
                                     <li className='leading-5 py-1'>Open to any student from any college.</li>
                                     <li className='leading-5 py-1'>The maximum duration of a short film is 3 minutes.</li>
