@@ -4,14 +4,14 @@ const Table = () => {
     
 
     const [tableData, setTableData] = useState([
-        { id: 1, name: 'Photography contest', age: '26.07.23-10.08.23'},
-        { id: 2, name: 'Panel discussion', age: '22-08-23(may vary)' },
-        { id: 3, name: 'Technical Connexion', age: '26.08.23' },
-        { id: 4, name: 'Coding Competition', age: '18.08.23' },
-        { id: 5, name: 'Treasure Hunt', age: '29.08.23' },
-        { id: 6, name: '3D Design', age: '30.08.23' },
-        { id: 7, name: 'Delicate Design', age: '29.08.23' },
-        { id: 8, name: 'Short Film', age: '26.07.23- 10.08.23' },
+        { id: 1, name: 'Photography contest', date: '26.07.23-10.08.23'},
+        { id: 2, name: 'Panel discussion', date: '22-08-23(may vary)' },
+        { id: 3, name: 'Technical Connexion', date: '26.08.23' },
+        { id: 4, name: 'Coding Competition', date: '18.08.23' },
+        { id: 5, name: 'Treasure Hunt', date: '23.08.23' },
+        { id: 6, name: '3D Design', date: '30.08.23' },
+        { id: 7, name: 'Delicate Design', date: '28.08.23' },
+        { id: 8, name: 'Short Film', date: '26.07.23- 10.08.23' },
         // Add more rows here...
       ]);
       const [tableVisible, setTableVisible] = useState(false);
@@ -50,7 +50,7 @@ const Table = () => {
               >
                 <td className=" px-4 py-2">{row.id}</td>
                 <td className=" px-4 py-2">{row.name}</td>
-                <td className=" px-4 py-2">{row.age}</td>
+                <td className=" px-4 py-2">{row.date}</td>
               </tr>
             ))}
           </tbody>

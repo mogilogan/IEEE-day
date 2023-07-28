@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Zenora",
+  "name": "Zenora 2k23 for IEEE DAY by PUDUCHERRY TECHNOLOGICAL UNIVERSITY IEEE-STUDENT BRANCH",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "ieeedaylogo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "ieeedaylogo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "ieeedaylogo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
