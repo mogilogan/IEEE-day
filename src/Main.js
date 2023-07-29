@@ -43,7 +43,7 @@ const Main = () => {
   
      
         <div class="md:grid md:grid-cols-10 md:grid-flow-col gap-0 ">
-             <div id='hsc' class="max-w-[200px] md:block hidden bg-teal-500   font-graduate text-center text-[70px]"><img src={ieeedaylogo} width={150} className='mx-auto py-4'/>I<br/>E<br/>E<br/>E<br/>D<br/>A<br/>Y</div>
+             <div id='hsc' class="max-w-[200px] md:block hidden bg-teal-500 h-screen  font-graduate text-center text-[70px]"><img src={ieeedaylogo} width={150} className='mx-auto py-4'/>I<br/>E<br/>E<br/>E<br/>D<br/>A<br/>Y     <br/> <br/>        </div>
              <div class=" md:hidden block bg-teal-500 text-center text-[70px]"> IEEE DAY</div>
              <div class="md:col-span-9 row-end-2 text-center  bg-[#6cb3c1] ">
              
@@ -239,7 +239,7 @@ const Main = () => {
                                     <li className='leading-5 py-1 font-semibold'>Decision of the jury would be final</li>
                                     <li className='leading-5 py-1'>Final Event day : Oct 4, 5</li>
                                   </ul>  
-                                   <div className='text-center'>Coordinators Contact : <br/>Jayaraj Pozhilan-9486901377, R Saipriya-9443949018<br/> <div className='pt-2'><button onClick={()=>window.open("https://docs.google.com/forms/d/e/1FAIpQLScnJhsvFo2G9bFLVmz--kkeSV8-n6ZIS7fkjwMJNsIR1U0D8g/viewform?usp=pp_url")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
+                                   <div className='text-center'>Coordinators Contact : <br/>Jayaraj Pozhilan-9486901377<br/> <div className='pt-2'><button onClick={()=>window.open("https://docs.google.com/forms/d/e/1FAIpQLScnJhsvFo2G9bFLVmz--kkeSV8-n6ZIS7fkjwMJNsIR1U0D8g/viewform?usp=pp_url")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
                                    </div>
                               }
                             </div>
