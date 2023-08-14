@@ -49,7 +49,7 @@ const Main = () => {
                                     <li className='leading-5 py-1 font-semibold'>Registration closes on 23rd August 2023 at 5:00pm. <b>Amount paid will not be refunded after registration.</b></li>
                                     <li className='leading-5 py-1'>A participation certificate from IEEE and IoE hub will be issued.</li>
                                   </ul>  
-                                   <div className='text-center'>Coordinators Contact : <br/>PRAVEENE R (8438778446)<br/> <div className='pt-2'><button onClick={()=>window.open("https://docs.google.com/forms/d/e/1FAIpQLSf0-y8TMXg0lJrtQNxfHJv7e-ebe-Ot4wQwJGB7QodAguZ9gw/viewform?usp=sf_link")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
+                                   <div className='text-center'>Coordinators Contact : <br/>PRAVEENE R (8438778446)<br/> <div className='pt-2'><button onClick={()=>window.open("https://forms.gle/udgUGpmixWjF29v37")} className='btn btn-primary w-32 bg-green-500 rounded-2xl py-1' title='Link'>REGISTER</button></div></div>
                                    </div>
                               
                             </div>
