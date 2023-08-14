@@ -27,10 +27,10 @@ const Table = () => {
 
 
     return (
-        <div className="my-8 mx-auto max-w-md">
+        <div className="my-8 mx-auto ">
         <table
         
-          className={`shadow-light-innerr-neumorphism-xl rounded-2xl table-auto w-[180px] mx-auto md:w-full ${
+          className={`shadow-light-innerr-neumorphism-xl rounded-2xl table-auto max-w-[70px] mx-auto md:w-full ${
             tableVisible ? 'opacity-100' : 'opacity-0'
           }`}
         >
